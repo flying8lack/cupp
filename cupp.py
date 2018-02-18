@@ -256,6 +256,7 @@ elif sys.argv[1] == '-i':
 
 	surname = raw_input("> Surname: ").lower()
 	nick = raw_input("> Nickname: ").lower()
+	Grandad_name = raw_input("> Grandad Name: ").lower()
 	birthdate = raw_input("> Birthdate (DDMMYYYY): ")
 	while len(birthdate) != 0 and len(birthdate) != 8:
 		print "\r\n[-] You must enter 8 digits for birthday!"
@@ -343,6 +344,7 @@ elif sys.argv[1] == '-i':
 
 	nameup = name.title()
 	surnameup = surname.title()
+	Grandad_name_up = Grandad_name.title()
 	nickup = nick.title()
 	wifeup = wife.title()
 	wifenup = wifen.title()
